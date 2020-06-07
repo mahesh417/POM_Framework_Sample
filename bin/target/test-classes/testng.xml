@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="firstSuit" verbose="1">
+	<test name="TestClass">
+		<parameter name="browser" value="ie" />
+		<classes>
+			<class name="com.test.TestClass">
+				<methods>
+					<include name="directDebitLogin" />
+					<exclude name="directDebitAmendment"/>
+					<exclude name="directDebitCancel"/>
+					<exclude name="directDebitDelete"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

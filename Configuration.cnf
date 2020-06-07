@@ -1,0 +1,8 @@
+Wait=long
+driver=webdriver.gecko.driver
+driverChrome=webdriver.chrome.driver
+driverPath=src/main/resources/webdriver/geckodriver.exe
+driverPathChrome=src/main/resources/webdriver/chromedriver.exe
+driverPathIE=src/main/resources/webdriver/IEDriverServer.exe
+url=https://rubrikinc--rbkuat.cs93.my.salesforce.com/
+

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="4" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="firstSuit" duration-ms="95742" started-at="2018-06-27T12:12:25Z" finished-at="2018-06-27T12:14:01Z">
+    <groups>
+    </groups>
+    <test name="TestClass" duration-ms="95742" started-at="2018-06-27T12:12:25Z" finished-at="2018-06-27T12:14:01Z">
+      <class name="com.test.TestClass">
+        <test-method status="PASS" signature="startReporter()[pri:0, instance:com.test.TestClass@13deb50e]" name="startReporter" is-config="true" duration-ms="299" started-at="2018-06-27T12:12:25Z" finished-at="2018-06-27T12:12:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReporter -->
+        <test-method status="PASS" signature="setupClass(org.testng.ITestContext)[pri:0, instance:com.test.TestClass@13deb50e]" name="setupClass" is-config="true" duration-ms="10" started-at="2018-06-27T12:12:26Z" finished-at="2018-06-27T12:12:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2e8e8225]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupClass -->
+        <test-method status="PASS" signature="methodSetup(java.lang.String)[pri:0, instance:com.test.TestClass@13deb50e]" name="methodSetup" is-config="true" duration-ms="7639" started-at="2018-06-27T12:12:26Z" finished-at="2018-06-27T12:12:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetup -->
+        <test-method status="PASS" signature="directDebitDelete(java.util.Map)[pri:0, instance:com.test.TestClass@13deb50e]" name="directDebitDelete" duration-ms="86573" started-at="2018-06-27T12:12:33Z" data-provider="CsvDataProvider" finished-at="2018-06-27T12:14:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{PaymentType=Direct Debit, password=Ganguly183, agreementRef=0000000020, userName=smallaiah, loggedInUser=Sunil Mallaiah}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- directDebitDelete -->
+        <test-method status="PASS" signature="methodTearDown(org.testng.ITestResult)[pri:0, instance:com.test.TestClass@13deb50e]" name="methodTearDown" is-config="true" duration-ms="565" started-at="2018-06-27T12:14:00Z" finished-at="2018-06-27T12:14:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=directDebitDelete status=SUCCESS method=TestClass.directDebitDelete(java.util.Map)[pri:0, instance:com.test.TestClass@13deb50e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method status="PASS" signature="testTearDown()[pri:0, instance:com.test.TestClass@13deb50e]" name="testTearDown" is-config="true" duration-ms="610" started-at="2018-06-27T12:14:00Z" finished-at="2018-06-27T12:14:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTearDown -->
+      </class> <!-- com.test.TestClass -->
+    </test> <!-- TestClass -->
+  </suite> <!-- firstSuit -->
+</testng-results>
